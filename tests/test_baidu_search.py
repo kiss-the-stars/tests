@@ -22,4 +22,3 @@ class TestBaiduSearch:
         result_page.wait_title_contains(keyword)
 
         assert keyword in result_page.get_page_title(), \
-            f"断言失败！预期包含关键词：{keyword}，实际标题：{result_page.get_page_title()}"
