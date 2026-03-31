@@ -1,5 +1,5 @@
 import pytest
-from pages.baidu_home_page import BaiduHomePage
+from baidutest.pages import BaiduHomePage
 
 class TestBaiduSearch:
 
